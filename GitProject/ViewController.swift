@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var setTitle: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    print("this is first github project")
     }
 
     override func didReceiveMemoryWarning() {
